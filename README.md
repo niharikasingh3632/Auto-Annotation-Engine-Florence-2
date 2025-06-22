@@ -32,10 +32,6 @@ auto-annotation-engine/
 ├── outputs/
 │ ├── yolo_labels/ # YOLO-format labels (class x_center y_center w h)
 │ └── readable_labels/ # Human-friendly annotations (class name, score, bbox)
-├── src/
-│ ├── dataset.py # Custom PyTorch Dataset
-│ ├── annotate.py # Florence inference + save functions
-│ └── utils.py # Helper utilities (e.g., bbox conversion)
 ├── sample_results/
 │ ├── example_input.jpg
 │ └── example_annotated.jpg
