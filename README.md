@@ -39,7 +39,6 @@ auto-annotation-engine/
 ├── sample_results/
 │ ├── example_input.jpg
 │ └── example_annotated.jpg
-├── requirements.txt
 └── README.md
 ```
 
@@ -62,8 +61,6 @@ Clone the repository and install dependencies:
 ```bash
 git clone [https://github.com/your-username/auto-annotation-engine.git](https://github.com/your-username/auto-annotation-engine.git)
 cd auto-annotation-engine
-pip install -r requirements.txt
-# Optional: configure API access for Florence 2 if using the hosted model.
 ```
 
 ---
